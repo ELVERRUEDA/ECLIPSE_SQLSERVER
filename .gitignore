@@ -1,22 +1,19 @@
 /target/
-# Ignorar directorios de compilación de Maven
+
 target/
 pom.xml.tag
 pom.xml.next
 pom.xml.backup
 pom.xml.releaseBackup
 
-# Ignorar archivos y directorios específicos de Eclipse
+
 .project
 .classpath
 .settings/
 *.launch
 .buildpath
 
-# Ignorar archivos y directorios específicos de Maven
-# Puede que tengas un .m2/repository en tu máquina local, no lo subas
-# Si por alguna razón hay un archivo .jar o .zip que no es parte del código fuente
-# Y no está en target, puedes añadirlo aquí si lo encuentras.
+
 
 # Ignorar archivos del sistema operativo
 .DS_Store # macOS
@@ -36,10 +33,6 @@ build/
 *.jar
 *.class
 
-# Cualquier otro archivo temporal o de conexión que veas con nombres extraños
-# Por ejemplo, esos archivos UUID-tcp... que mencionaste
-# Puedes añadir patrones específicos si sabes que son recurrentes,
-# o añadir *.tmp, *.log, etc. para cubrirlos.
-# Si tienes muchos con ese patrón, puedes intentar un patrón más general como:
+
 *tcp*
 *uuid*
